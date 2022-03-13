@@ -1,0 +1,120 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*top menu*/
+a{
+    text-decoration: none;
+}
+.header {
+    background-color: #0d6efd;
+    display: inline-block;
+    width: 100%;
+}
+#logo {
+    color: #fff;
+    float: left;
+}
+.search-box {
+    margin-top: 10px;
+    float: left;
+}
+.register .btn_register {
+    border: 2px solid #ffffff;
+    background: #fff;
+    color: #0d6efd;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.register  svg{
+    color: #fff;
+    margin-right: 15px;
+    margin-top: 12px;
+    font-size: 20px;
+}
+.search-box svg{
+    font-size: 20px;
+    color:#0d6efd;
+}
+.header .shoppy svg {
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    left: -176px;
+    font-size: 32px;
+    top: 6px;
+}
+.register{
+    float: right;
+}
+.search-box .btn{
+    background-color: #fff;
+    border-radius: inherit;
+    
+}
+/*image_link*/
+
+ul.menu{
+    padding: 0px;
+    margin: 0px;
+}
+ul.menu li{
+    float:left;
+    list-style: none;
+}
+ul.menu li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 40px 60px;
+}
+ul.menu li a img {
+    height: 100px;
+    width: 100px;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
+ul.menu li a span{
+    margin: 0px 20px;
+    font-weight: 600;
+}
+.shoppy_slide{
+    display: inline-block;
+    width: 100%;
+}
+.linking{
+    display: inline-block;
+    width: 100%;
+    background-color: #d0edf5;
+}
+
+/* slider changes */
+
+.carousel_right {
+    padding: 0px;
+    position: absolute;
+    bottom: 220px;
+    right: 0px;
+}
+.carousel_left {
+    padding: 0px;
+    position: absolute;
+    bottom: 180px;
+    left:0px;
+}
+.imgsize{
+    height: 500px;
+    width: 500px;
+    background: no-repeat;
+    background-size: cover;
+}
+.carousel-caption h3{
+    font-size: 72px;
+}
+.home_slider
+{
+    display: inline-block;
+    width: 100%;
+    margin-top: -5px;
+}
